@@ -18,7 +18,7 @@ spec:
         name: voting-app-pod
         app: demo-voting-app
     spec:
-      container:
+      containers:
         - name: voting-app
           image: kodekloud/examplevotingapp_vote:v1
           ports:
